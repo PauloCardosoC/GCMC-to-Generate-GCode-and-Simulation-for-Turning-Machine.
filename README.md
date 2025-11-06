@@ -92,6 +92,13 @@ Testei com alguns comandos simples (que ainda não representam um processo real 
 Sobre o Visualizador, basta instalar os modulos necessarios via PIP e rodar o comando a partir de um SVG gerado pelo GCMC.
 Cada Camada pode ser um processo, para que as linhas pertencentes a uma camada sejam executadas, precisa que haja uma Ferramenta desenhada nas coordenadas (0,0) e o traço precisa estar com opacidade 0, para que o visualizador a considere como uma ferramenta e a camada possa ser executada.
 
+pip install svgpathtools drawsvg cairosvg imageio[ffmpeg] Pillow tqdm
+
+O cairosvg precisa das bibliotecas c, no ubuntu use esse comando para instalar elas antes de instalar o modulo.
+
+sudo apt install libcairo2-dev
+
+
 *(em desenvolvimento)*
 
 ---
