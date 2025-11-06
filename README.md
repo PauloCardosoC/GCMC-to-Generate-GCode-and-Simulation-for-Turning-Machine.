@@ -1,5 +1,7 @@
 # GCMC and CNC Lathe Project Viewer / GCMC e Visualizador de Projetos para Torno CNC
 
+![Simulation](https://github.com/PauloCardosoC/GCMC-to-Generate-Code-and-Simulation-for-Turning-Machine./blob/main/torno.gif?raw=true)
+
 ## 🇺🇸 1 - About this project (English)
 
 Recently, I had to start writing programs for a **Nardini CNC lathe** equipped with an **MCS** controller.
